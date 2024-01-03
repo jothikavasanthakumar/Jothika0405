@@ -41,7 +41,7 @@ function ItemDetail() {
                         <div className='space-y-8'>
                             <div className='flex justify-between '>
                                 <h1 className='font-display text-2xl md:text-5xl text-gray-800'>{product.name}</h1>
-                                <p className='font-body text-lg md:text-xl text-gray-800'>${product.price}</p>
+                                <p className='font-body text-lg md:text-xl text-gray-800'>Rs {product.price}</p>
                             </div>
 
                             <div>
@@ -99,7 +99,7 @@ function ItemDetail() {
                                 onClick={handleClick}
                                 className='w-full h-12 my-4 p-4 font-body text-sm bg-gray-900 bg-opacity-70 text-white rounded
                                 transition duration-300 border-gray-900 hover:bg-transparent hover:text-gray-900 hover:border active:bg-gray-100 focus:outline-none'>
-                                    Add to Cart
+                                    Register
                             </button>
 
                             <div className='flex justify-around pt-4'>
